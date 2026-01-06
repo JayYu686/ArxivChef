@@ -44,6 +44,19 @@ Once the app is running, use the **Sidebar** to configure:
 - **Language**: Switch the interface language.
 - **Theme**: Toggle between different visual themes.
 
+### ☁️ Deployment
+
+You can deploy this app for free on **Streamlit Community Cloud**:
+
+1.  Push your code to GitHub.
+2.  Visit [share.streamlit.io](https://share.streamlit.io/).
+3.  Click **New app** and select your repository (`ArxivChef`).
+4.  Click **Deploy**!
+
+> [!WARNING]
+> **Data Persistence Warning**:
+> By default, this app uses local JSON files (`topics.json`, `favorites.json`) to store data. On Streamlit Community Cloud, **files are reset when the app restarts**. Subscription lists and favorites will not be saved permanently in this version.
+
 ---
 
 <a name="chinese"></a>
@@ -87,6 +100,19 @@ Once the app is running, use the **Sidebar** to configure:
 - **API 设置**: 选择预设（如 DeepSeek, Kimi 等）或自定义配置，输入 API Key 即可使用 AI 摘要功能。
 - **语言设置**: 切换界面显示语言。
 - **主题设置**: 选择你喜欢的主题风格。
+
+### ☁️ 部署指南
+
+你可以将本项目免费部署到 **Streamlit Community Cloud**：
+
+1.  确保代码已上传到 GitHub。
+2.  访问 [share.streamlit.io](https://share.streamlit.io/) 并登录。
+3.  点击 **New app**，选择你的仓库 (`ArxivChef`)。
+4.  点击 **Deploy** 即可！
+
+> [!WARNING]
+> **数据持久化警告**:
+> 当前版本默认使用本地 JSON 文件 (`topics.json`, `favorites.json`) 存储数据。在 Streamlit Community Cloud 上，**应用重启后（更新代码或长时间未访问）本地文件会被重置**。这意味着你的订阅列表和收藏夹可能会丢失。如需持久化存储，建议自行对接 MongoDB 或 Streamlit Secrets。
 
 ---
 *Made with ❤️ by [JayYu686](https://github.com/JayYu686)*
