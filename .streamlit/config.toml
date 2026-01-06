@@ -1,0 +1,16 @@
+[server]
+headless = false
+
+[browser]
+gatherUsageStats = false
+
+[ui]
+# 隐藏 Streamlit 内置菜单元素
+hideTopBar = false
+
+[theme]
+# 可自定义主题颜色
+primaryColor = "#ff6b6b"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f0f2f6"
+textColor = "#262730"

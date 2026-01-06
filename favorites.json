@@ -1,0 +1,46 @@
+{
+  "FSAR": [
+    {
+      "arxiv_id": "2505.06002v2",
+      "title": "Task-Adapter++: Task-specific Adaptation with Order-aware Alignment for Few-shot Action Recognition",
+      "authors": [
+        "Congqi Cao",
+        "Peiheng Han",
+        "Yueran zhang",
+        "Yating Yu",
+        "Qinyi Lv",
+        "Lingtong Min",
+        "Yanning zhang"
+      ],
+      "abstract": "Large-scale pre-trained models have achieved remarkable success in language and image tasks, leading an increasing number of studies to explore the application of pre-trained image models, such as CLIP, in the domain of few-shot action recognition (FSAR). However, current methods generally suffer from several problems: 1) Direct fine-tuning often undermines the generalization capability of the pre-trained model; 2) The exploration of task-specific information is insufficient in the visual tasks; 3) The semantic order information is typically overlooked during text modeling; 4) Existing cross-modal alignment techniques ignore the temporal coupling of multimodal information. To address these, we propose Task-Adapter++, a parameter-efficient dual adaptation method for both image and text encoders. Specifically, to make full use of the variations across different few-shot learning tasks, we design a task-specific adaptation for the image encoder so that the most discriminative information can be well noticed during feature extraction. Furthermore, we leverage large language models (LLMs) to generate detailed sequential sub-action descriptions for each action class, and introduce semantic order adapters into the text encoder to effectively model the sequential relationships between these sub-actions. Finally, we develop an innovative fine-grained cross-modal alignment strategy that actively maps visual features to reside in the same temporal stage as semantic descriptions. Extensive experiments fully demonstrate the effectiveness and superiority of the proposed method, which achieves state-of-the-art performance on 5 benchmarks consistently. The code is open-sourced at https://github.com/Jaulin-Bage/Task-Adapter-pp.",
+      "url": "http://arxiv.org/abs/2505.06002v2",
+      "published": "2025-05-09",
+      "category": "FSAR",
+      "favorited_at": "2026-01-06 15:53",
+      "code_urls": [
+        "https://github.com/Jaulin-Bage/Task-Adapter-pp"
+      ]
+    },
+    {
+      "arxiv_id": "2511.06741v5",
+      "title": "Otter: Mitigating Background Distractions of Wide-Angle Few-Shot Action Recognition with Enhanced RWKV",
+      "authors": [
+        "Wenbo Huang",
+        "Jinghui Zhang",
+        "Zhenghao Chen",
+        "Guang Li",
+        "Lei Zhang",
+        "Yang Cao",
+        "Fang Dong",
+        "Takahiro Ogawa",
+        "Miki Haseyama"
+      ],
+      "abstract": "Wide-angle videos in few-shot action recognition (FSAR) effectively express actions within specific scenarios. However, without a global understanding of both subjects and background, recognizing actions in such samples remains challenging because of the background distractions. Receptance Weighted Key Value (RWKV), which learns interaction between various dimensions, shows promise for global modeling. While directly applying RWKV to wide-angle FSAR may fail to highlight subjects due to excessive background information. Additionally, temporal relation degraded by frames with similar backgrounds is difficult to reconstruct, further impacting performance. Therefore, we design the CompOund SegmenTation and Temporal REconstructing RWKV (Otter). Specifically, the Compound Segmentation Module~(CSM) is devised to segment and emphasize key patches in each frame, effectively highlighting subjects against background information. The Temporal Reconstruction Module (TRM) is incorporated into the temporal-enhanced prototype construction to enable bidirectional scanning, allowing better reconstruct temporal relation. Furthermore, a regular prototype is combined with the temporal-enhanced prototype to simultaneously enhance subject emphasis and temporal modeling, improving wide-angle FSAR performance. Extensive experiments on benchmarks such as SSv2, Kinetics, UCF101, and HMDB51 demonstrate that Otter achieves state-of-the-art performance. Extra evaluation on the VideoBadminton dataset further validates the superiority of Otter in wide-angle FSAR.",
+      "url": "http://arxiv.org/abs/2511.06741v5",
+      "published": "2025-11-10",
+      "category": "FSAR",
+      "favorited_at": "2026-01-06 15:56",
+      "code_urls": []
+    }
+  ]
+}
